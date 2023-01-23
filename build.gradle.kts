@@ -11,8 +11,7 @@ plugins {
 dependencies {
     implementation("org.scala-lang:scala-library:2.12.17")
     implementation("org.apache.spark:spark-core_2.12:3.0.3")
-
-    compileOnly("org.apache.spark:spark-sql_2.12:3.0.3")
+    implementation("org.apache.spark:spark-sql_2.12:3.0.3")
 
     testImplementation("org.scalatest:scalatest_2.12:3.0.2")
     testImplementation("junit:junit:4.13")
