@@ -1,2 +1,2 @@
 # hello-spark
-A simple project to learn Apache Spark
+A simple self-contained project to learn Apache Spark
